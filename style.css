@@ -1,0 +1,186 @@
+
+body {
+    
+    background-color: darkslategray;
+    color: #343a40;
+}
+
+/*  style for nav.bar */
+.navbar {
+    background-color: #343a40 !important;
+    border-bottom: 3px solid  rgb(0, 249, 207);
+}
+
+.navbar-brand {
+    color: #ffffff !important;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.navbar-nav .nav-link {
+    color: #ffffff !important;
+    font-size: 1.1rem;
+    text-transform: uppercase;
+    padding: 0.5rem 1rem;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #007bff !important;
+}
+
+/* style for section */
+section {
+    padding: 50px 0;
+}
+
+/* style for picture section */
+#home {
+    background-color:darkslategray;
+    color: #ffffff;
+    text-align: center;
+    padding: 100px 0;
+}
+
+/* Heading Style for home section */
+#home h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+home p {
+
+    font-size: 1.5rem;
+    margin-bottom: 40px;
+}
+
+/* Button Style for home section */
+#home .btn {
+    font-size: 1.2rem;
+}
+
+
+/* style for information section */
+#about {
+    background-color: #f8f9fa;
+}
+
+/* style for skill section */
+#skills {
+    background-color: darkslategray;
+   
+}
+/* style for skill logo */
+.skill-logo {
+    background-color: transparent;
+    padding: 0; 
+    margin-bottom: 10px; 
+   
+}
+.skill-logo img {
+    
+    max-width: 100px;
+    height: auto;
+    border: 1px;
+}
+
+
+#additional {
+    background-color:darkslategray;
+}
+
+/* style for footer */
+footer {
+  
+    background-color: darkslategray;
+    color:white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+footer a {
+    color: #ffffff !important;
+    text-decoration: none;
+    
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+h1, h3, h4, h5, h6 {
+    color: #ffffff;
+}
+h2 {
+   display: inline-block;
+    color: #ffffff;
+    background-color: darkslategray;
+ 
+    border-radius: 3px;
+   
+    box-shadow: 0 0 50px rgba(0, 123, 255, 0.5);
+}
+/* Paragraph Style*/
+p {
+    color: #ffffff;
+    font-size: 1.1rem;
+    line-height: 1.6;
+}
+
+
+/* Button Style */
+.btn {
+    background-color: #007bff;
+    border-color: #007bff;
+    color: #ffffff;
+    font-size: 1.1rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 0.75rem 1.5rem;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.btn:hover {
+    background-color: #0056b3;
+    border-color: #0056b3;
+}
+
+/* Rounded Image Style */
+.img-fluid.rounded-circle {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border: 5px solid #007bff;
+    box-shadow: 0 0 20px rgba(0, 123, 255, 0.5);
+}
+
+/* Skill Logo Style */
+.col-md-3 img {
+    max-width: 100px;
+    height: auto;
+    margin-bottom: 20px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.col-md-3 img:hover {
+    transform: scale(1.1);
+}
+
+/* Footer Link Style */
+footer a {
+    text-decoration: none;
+    transition: color 0.3s ease-in-out;
+}
+
+footer a:hover {
+  background-color: transparent !important;
+    text-decoration: underline;
+}
+/*  style for social logo */
+.social-logo {
+    width: 30px; 
+    height: auto; 
+    margin-right: 10px;
+    background-color: transparent;
+}
+  
